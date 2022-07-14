@@ -1,0 +1,105 @@
+#base{
+  background-color: #fec0cb;
+  padding: 8px 8px 8px 8px;
+  height: 100%;
+  width: 100%;
+}
+#header{
+  background-color: palevioletred;
+  display: inline-block;
+  margin-bottom: 5px;
+  height: 10%;
+  width: 100%;
+  position: relative;
+  border-radius: 5px 5px;
+  box-shadow: 7px 7px 12px grey ;
+  }
+#heading{
+  margin-top: 2px;
+  padding-top:5px;
+  padding-left:5px;
+  color:white;
+  font-family: "Garamond";
+  font-size: 400%;
+  text-align: center;
+}
+#toolList{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 5px 5px 5px 15px;
+  display: inline-flex;
+}
+.toolButton{
+  background-color: white;
+  margin: 2px 2px 2px 2px;
+  padding-left: 2px;
+  height: 33px;
+  width: 33px;
+  color: palevioletred;
+  border-radius: 5px 5px;
+  font-family: "Garamond";
+  font-size: large;
+  border: none;
+  box-shadow: 2px 4px 6px grey;  
+}
+.toolButton:hover{
+  zoom: 110%;
+}
+#homeButton{
+  background-image:url("resources/images/home.png");
+  background-size: cover;
+}
+#themeButton{
+  background-image:url("resources/images/day_theme_icon.png");
+  background-size: cover;
+}
+#rotateButton{
+  background-image:url("resources/images/rotate.png");
+  background-size: cover;
+  transform: rotate(180deg);
+}
+#featureList{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 5px 5px 5px 5px;
+  display: inline-flex;
+}
+.featureButtons{
+  background-color: white;
+  margin: 2px 2px 2px 2px;
+  padding-left: 2px;
+  height: 50px;
+  width: 100px;
+  border-radius: 20px 20px;
+  color: palevioletred;
+  font-family: "Garamond";
+  font-size: large;
+  border: none;
+  box-shadow: 2px 4px 6px grey;
+}  
+#backBlock{
+  display:flex;
+  flex-wrap: no-wrap;
+  margin-top: 5px;
+  height: 88%;
+  width: 100%;
+  position: relative;
+}
+.ioBox{
+  width: 50%;
+  height: auto;
+  float: left;
+  margin: 5px 5px 5px 5px;
+}
+#inputBox{
+  background-color: #FCFCFB;
+  resize: none;
+  color:black;
+}
+#outputBox{
+  overflow-y: scroll !important;
+  background-color: white;
+  display: block;
+}

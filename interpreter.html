@@ -1,0 +1,28 @@
+<html>
+  <head>
+    <script type="text/javascript" src="interpreter.js"></script>
+    <link rel="stylesheet" href="interpreter.css" />
+  </head>
+  <body>
+    <div id="base">
+      <div id="header">
+        <div id="heading">&lt;!HTML Interpreter&gt;</div>
+        <div id="toolList">
+          <button class="toolButton" id="homeButton" onClick="goHome()"></button>
+          <!-- <button class="toolButton" id="saveButton" onclick="saveHTMLCode()"></button> -->
+          <button class="toolButton" id="themeButton" value="day" onclick="setTheme()"></button>
+          <button class="toolButton" id="rotateButton" value="vertical" onclick="rotate()"></button>
+        </div>
+        <div id="featureList">
+            <button class="featureButtons" id="resetButton" onclick="reset()">RESET</button>
+            <button class="featureButtons" id="runButton" onclick="run()">RUN</button>
+          </div id="featureList">
+        
+      </div>
+      <div id="backBlock">
+        <textarea autofocus id="inputBox" class="ioBox"></textarea>
+        <div id="outputBox" class="ioBox"></div>
+      </div>
+    </div>
+  </body>
+</html> 

@@ -1,0 +1,30 @@
+#backgroundImg {
+    background-image: url("resources/images/html.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: pink;
+    height: 100%;
+    width: 100%;
+    display: block;
+    position: relative;
+  }
+  #mainHeading {
+    font-size: 700%;
+    color: white;
+    text-shadow: 0.5cm;
+    text-align: center;
+    /* background-color: violet; */
+    font-family: "Garamond";
+  }
+  #startButton {
+    font-size: 500%;
+    color: white;
+    text-align: center;
+    background-color: #A93226;
+    border-top: thick white;
+    font-family: "Garamond";
+    margin-top: 30px;
+  }
+  div#startButton:hover {
+    font-size: 600%;
+  }
